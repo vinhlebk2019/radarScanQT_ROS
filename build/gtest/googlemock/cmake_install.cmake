@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/le/aev/radarScanQT_ROS/install")
+=======
+  set(CMAKE_INSTALL_PREFIX "/home/le/catkin_ws/install")
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +16,11 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
+<<<<<<< HEAD
     set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+=======
+    set(CMAKE_INSTALL_CONFIG_NAME "")
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,7 +47,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/le/aev/radarScanQT_ROS/build/gtest/googlemock/gtest/cmake_install.cmake")
+=======
+  include("/home/le/catkin_ws/build/gtest/googlemock/gtest/cmake_install.cmake")
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 
 endif()
 

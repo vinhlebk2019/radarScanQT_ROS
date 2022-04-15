@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/le/aev/radarScanQT_ROS/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/le/aev/radarScanQT_ROS/build
+=======
+CMAKE_SOURCE_DIR = /home/le/catkin_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/le/catkin_ws/build
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +61,11 @@ CMAKE_BINARY_DIR = /home/le/aev/radarScanQT_ROS/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
+<<<<<<< HEAD
 	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/le/aev/radarScanQT_ROS/build/test_results
+=======
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/le/catkin_ws/build/test_results
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +82,10 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/le/aev/radarScanQT_ROS/src /home/le/aev/radarScanQT_ROS/src /home/le/aev/radarScanQT_ROS/build /home/le/aev/radarScanQT_ROS/build /home/le/aev/radarScanQT_ROS/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/le/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/le/catkin_ws/src /home/le/catkin_ws/src /home/le/catkin_ws/build /home/le/catkin_ws/build /home/le/catkin_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

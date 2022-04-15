@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/le/aev/radarScanQT_ROS/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/le/aev/radarScanQT_ROS/build
+=======
+CMAKE_SOURCE_DIR = /home/le/catkin_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/le/catkin_ws/build
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +144,24 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/le/aev/radarScanQT_ROS/build/CMakeFiles /home/le/aev/radarScanQT_ROS/build/gtest/CMakeFiles/progress.marks
 	cd /home/le/aev/radarScanQT_ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/le/aev/radarScanQT_ROS/build/CMakeFiles 0
+=======
+	cd /home/le/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/le/catkin_ws/build/CMakeFiles /home/le/catkin_ws/build/gtest/CMakeFiles/progress.marks
+	cd /home/le/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/le/catkin_ws/build/CMakeFiles 0
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+=======
+	cd /home/le/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +171,29 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/le/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+=======
+	cd /home/le/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/le/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : depend
 
 # Help Target
@@ -191,6 +220,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/le/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : cmake_check_build_system
 

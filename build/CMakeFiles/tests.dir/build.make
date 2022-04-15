@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/le/aev/radarScanQT_ROS/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/le/aev/radarScanQT_ROS/build
+=======
+CMAKE_SOURCE_DIR = /home/le/catkin_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/le/catkin_ws/build
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 
 # Utility rule file for tests.
 
@@ -67,6 +74,10 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
+<<<<<<< HEAD
 	cd /home/le/aev/radarScanQT_ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/le/aev/radarScanQT_ROS/src /home/le/aev/radarScanQT_ROS/src /home/le/aev/radarScanQT_ROS/build /home/le/aev/radarScanQT_ROS/build /home/le/aev/radarScanQT_ROS/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/le/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/le/catkin_ws/src /home/le/catkin_ws/src /home/le/catkin_ws/build /home/le/catkin_ws/build /home/le/catkin_ws/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 .PHONY : CMakeFiles/tests.dir/depend
 

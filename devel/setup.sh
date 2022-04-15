@@ -11,7 +11,11 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
+<<<<<<< HEAD
 : ${_CATKIN_SETUP_DIR:=/home/le/aev/radarScanQT_ROS/devel}
+=======
+: ${_CATKIN_SETUP_DIR:=/home/le/catkin_ws/devel}
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

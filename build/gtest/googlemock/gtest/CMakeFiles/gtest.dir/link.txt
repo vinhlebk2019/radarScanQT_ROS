@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/le/aev/radarScanQT_ROS/build/gtest/googlemock/gtest/src -Wl,-rpath,/home/le/aev/radarScanQT_ROS/build/gtest/googlemock/gtest/src -lpthread 
+=======
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/le/catkin_ws/build/gtest/googlemock/gtest/src -Wl,-rpath,/home/le/catkin_ws/build/gtest/googlemock/gtest/src -lpthread 
+>>>>>>> 9ceb1f80b4ec1fc1f1dee2e47f5094883812ff84
