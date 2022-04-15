@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include/x86_64-linux-g
 PROJECT_CATKIN_DEPENDS = "roscpp;rospy;std_msgs;message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lradarscan_pkg;/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5;/usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.9.5".split(';') if "-lradarscan_pkg;/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5;/usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.9.5" != "" else []
 PROJECT_NAME = "radarscan_pkg"
-PROJECT_SPACE_DIR = "/home/giangtin/aev/radarScanQT_ROS/install"
+PROJECT_SPACE_DIR = "/home/le/aev/radarScanQT_ROS/install"
 PROJECT_VERSION = "0.0.0"

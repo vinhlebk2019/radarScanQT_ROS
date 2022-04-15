@@ -6,7 +6,7 @@ file(REMOVE_RECURSE
   "talker_autogen"
   "CMakeFiles/talker_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/radarscan_pkg_generate_messages_cpp"
-  "/home/giangtin/aev/radarScanQT_ROS/devel/include/radarscan_pkg/ttcRadar_msg.h"
+  "/home/le/aev/radarScanQT_ROS/devel/include/radarscan_pkg/ttcRadar_msg.h"
 )
 
 # Per-language clean rules from dependency scanning.

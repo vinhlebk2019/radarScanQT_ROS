@@ -10,8 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/radarscangui.dir/src/radarscan.cpp.o"
   "CMakeFiles/radarscangui.dir/radarscangui_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/radarscangui.dir/radarscangui_autogen/6WJNPILU4A/qrc_resource.cpp.o"
-  "/home/giangtin/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/radarscangui.pdb"
-  "/home/giangtin/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/radarscangui"
+  "/home/le/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/radarscangui.pdb"
+  "/home/le/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/radarscangui"
 )
 
 # Per-language clean rules from dependency scanning.

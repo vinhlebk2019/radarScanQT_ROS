@@ -67,14 +67,14 @@ set(radarscan_pkg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(radarscan_pkg_SOURCE_PREFIX /home/giangtin/aev/radarScanQT_ROS/src/radarscan_pkg)
-  set(radarscan_pkg_DEVEL_PREFIX /home/giangtin/aev/radarScanQT_ROS/devel)
+  set(radarscan_pkg_SOURCE_PREFIX /home/le/aev/radarScanQT_ROS/src/radarscan_pkg)
+  set(radarscan_pkg_DEVEL_PREFIX /home/le/aev/radarScanQT_ROS/devel)
   set(radarscan_pkg_INSTALL_PREFIX "")
   set(radarscan_pkg_PREFIX ${radarscan_pkg_DEVEL_PREFIX})
 else()
   set(radarscan_pkg_SOURCE_PREFIX "")
   set(radarscan_pkg_DEVEL_PREFIX "")
-  set(radarscan_pkg_INSTALL_PREFIX /home/giangtin/aev/radarScanQT_ROS/install)
+  set(radarscan_pkg_INSTALL_PREFIX /home/le/aev/radarScanQT_ROS/install)
   set(radarscan_pkg_PREFIX ${radarscan_pkg_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(radarscan_pkg_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/giangtin/aev/radarScanQT_ROS/devel/include;/home/giangtin/aev/radarScanQT_ROS/src/radarscan_pkg/include;/usr/include/x86_64-linux-gnu/qt5/;/usr/include/x86_64-linux-gnu/qt5/QtWidgets;/usr/include/x86_64-linux-gnu/qt5/QtGui;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5//mkspecs/linux-g++;/usr/include;/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport " STREQUAL " ")
+if(NOT "/home/le/aev/radarScanQT_ROS/devel/include;/home/le/aev/radarScanQT_ROS/src/radarscan_pkg/include;/usr/include/x86_64-linux-gnu/qt5/;/usr/include/x86_64-linux-gnu/qt5/QtWidgets;/usr/include/x86_64-linux-gnu/qt5/QtGui;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5//mkspecs/linux-g++;/usr/include;/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport " STREQUAL " ")
   set(radarscan_pkg_INCLUDE_DIRS "")
-  set(_include_dirs "/home/giangtin/aev/radarScanQT_ROS/devel/include;/home/giangtin/aev/radarScanQT_ROS/src/radarscan_pkg/include;/usr/include/x86_64-linux-gnu/qt5/;/usr/include/x86_64-linux-gnu/qt5/QtWidgets;/usr/include/x86_64-linux-gnu/qt5/QtGui;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5//mkspecs/linux-g++;/usr/include;/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport")
+  set(_include_dirs "/home/le/aev/radarScanQT_ROS/devel/include;/home/le/aev/radarScanQT_ROS/src/radarscan_pkg/include;/usr/include/x86_64-linux-gnu/qt5/;/usr/include/x86_64-linux-gnu/qt5/QtWidgets;/usr/include/x86_64-linux-gnu/qt5/QtGui;/usr/include/x86_64-linux-gnu/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5//mkspecs/linux-g++;/usr/include;/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/giangtin/aev/radarScanQT_ROS/devel/include;/home/giangtin/aev/rada
         message(FATAL_ERROR "Project 'radarscan_pkg' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'radarscan_pkg' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/giangtin/aev/radarScanQT_ROS/src/radarscan_pkg/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'radarscan_pkg' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/le/aev/radarScanQT_ROS/src/radarscan_pkg/${idir}'.  ${_report}")
     endif()
     _list_append_unique(radarscan_pkg_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/giangtin/aev/radarScanQT_ROS/devel/lib;/home/giangtin/aev/simulation_ws/devel/lib;/home/giangtin/Downloads/obstacleAvoidanceRobot/catkin_ws/devel/lib;/home/giangtin/aev/aev_ws/devel/lib;/home/giangtin/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/le/aev/radarScanQT_ROS/devel/lib;/home/le/aev/aev_ws/devel/lib;/home/le/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

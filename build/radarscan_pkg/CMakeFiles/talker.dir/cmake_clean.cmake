@@ -10,8 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/talker.dir/src/radarscan.cpp.o"
   "CMakeFiles/talker.dir/talker_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/talker.dir/talker_autogen/6WJNPILU4A/qrc_resource.cpp.o"
-  "/home/giangtin/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/talker.pdb"
-  "/home/giangtin/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/talker"
+  "/home/le/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/talker.pdb"
+  "/home/le/aev/radarScanQT_ROS/devel/lib/radarscan_pkg/talker"
 )
 
 # Per-language clean rules from dependency scanning.

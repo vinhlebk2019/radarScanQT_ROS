@@ -1,2 +1,2 @@
 radarscan_pkg
--DCATKIN_DEVEL_PREFIX=/home/giangtin/aev/radarScanQT_ROS/devel -DCMAKE_INSTALL_PREFIX=/home/giangtin/aev/radarScanQT_ROS/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/le/aev/radarScanQT_ROS/devel -DCMAKE_INSTALL_PREFIX=/home/le/aev/radarScanQT_ROS/install -G Unix Makefiles
